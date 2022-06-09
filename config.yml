@@ -1,0 +1,15 @@
+channel_names:
+  aftv: 'UCBTy8j2cPy6zw68godcE7MQ'
+  expressions: 'UC-HSLEEHVlnqlgTB7UptLeg'
+  tus: 'UCMmVPVb0BwSIOWVeDwlPocQ'  
+
+team_names:
+  aftv: 'arsenal'
+  expressions: 'tottenham'
+  tus: 'manchester united'  
+
+
+pipeline_steps:
+  extract : True # get data from YT api in json format
+  transform: True # extract data from json and save as csv
+  preprocess: True # clean date format, get scores
